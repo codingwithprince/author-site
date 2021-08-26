@@ -1,0 +1,125 @@
+/* ===== font import ====== */
+
+/* ===== Global values ======*/
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-color: #44C0C2;
+}
+.main-btn{
+    background-color: #44C0C2;
+    color: #fff;
+    padding: 7px 30px;
+    border-radius: 5px;
+    border-width: 0;
+    margin-top: 20px;
+}
+/* ====== header ========= */
+.navbar{
+    background-color: #fff;
+    padding: 0 5%;
+}
+.navbar-nav li{
+    margin: 0 15px;
+}
+.navbar-nav li a{
+    color: #333;
+    padding: 20px 10px;
+    margin: 0;
+}
+.navbar-nav li:hover a{
+    background-color: rgba(187, 187, 187, 0.322);
+    color: var(--main-color);
+    border-bottom: 2px solid #44C0C2;
+}
+.navbar-toggler-icon{
+    color: var(--main-color);
+    font-size: 25px;
+    margin-top: 10px;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.carousel-caption h1{
+    font-size: 4vw;
+}
+.carousel-caption p{
+    width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.carousel-caption  button{
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1vw;
+}
+
+/* ====== Service Section ====== */
+
+#services{
+    margin: 100px 0;
+    overflow: hidden;
+    padding: 10px 5%;
+}
+.s-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+.s-img{
+    height: 100px;
+    width: 100px;
+    border: 3px solid #44C0C2;
+    border-radius: 50%;
+    position: relative;
+}
+.s-img img{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.s-text{
+    text-align: center;
+}
+.s-text p{
+    padding: 10px 20px;
+}
+
+/* ====== Portfolio Section ======*/
+
+#portfolio{
+    margin: 100px 0;
+    background-color: #f1f1f1;
+    padding: 50px 5%;
+}
+.section-title{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.portfolio-images{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+}
+.portfolio-images img{
+    margin: 10px;
+}
